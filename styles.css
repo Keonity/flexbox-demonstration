@@ -17,6 +17,7 @@ body {
     padding-left: 96px;
     padding-right: 96px;
     padding-top: 8px;
+    flex-grow: 1;
 }
 
 .header-right {
@@ -42,6 +43,7 @@ body {
     align-items: center;
     padding: 96px;
     gap: 32px;
+    flex-grow: 2;
 }
 
 
@@ -86,6 +88,7 @@ body {
     padding-right: 96px;
     padding-bottom: 96px;
     padding-top: 32px;
+    flex-grow: 2;
 }
 
 .cardContainer {
@@ -120,4 +123,79 @@ body {
 
 .quoteSection {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 96px;
+}
+
+.quoteSection h4 {
+    margin: 0px;
+    display: flex;
+    text-align: right;
+    align-self: flex-end;
+}
+
+
+.quoteSection p {
+    display: flex;
+    text-align: left;
+    font-style: italic;
+    font-weight: lighters;
+    margin: 0px;
+}
+
+.adSection {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.adText {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-grow: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 16px;
+}
+
+.adText h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.adText p {
+    margin: 0px;
+}
+
+.adText div {
+    margin-left: 64px;
+}
+
+.adButton {
+    flex-grow: 0;
+    display: flex;
+    align-self: center;
+    margin: 0px;
+    margin-right: 64px;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: groove;
+    padding-left: 16px;
+    padding-right: 16px;
 }
