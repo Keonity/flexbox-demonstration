@@ -16,6 +16,7 @@ body {
     color: #F9FAF8;
     padding-left: 96px;
     padding-right: 96px;
+    padding-top: 8px;
 }
 
 .header-right {
@@ -35,11 +36,12 @@ body {
     height: 360px;
     background-color: #1F2937;
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 1 0;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 96px;
+    gap: 32px;
 }
 
 
@@ -54,8 +56,8 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 0 1 0;
-    color: #E5E7EB;
     flex-grow: 1;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -73,4 +75,49 @@ body {
 
 .heroLeft button {
     width: 200px;
+}
+
+.bodySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 96px;
+    padding-top: 32px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    flex-grow: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    display:flex;
+    flex: 0 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.cardImg {
+    border: #1F2937;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #006aff;
+    height: 150px;
+    width: 150px;
+    flex-grow: 0;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
 }
